@@ -1,2 +1,2 @@
 # Pokemon Go 
-<img src="pokemon.png" alt="Pokemon Image">
+<img src="/images/pokemon.png" alt="Pokemon Image">
