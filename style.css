@@ -181,6 +181,25 @@ nav select {
   flex-direction: column;
 }
 
+.first{
+  background-image: url(images/first.jpg);
+}
+
+.second{
+  background-image: url(images/second.jpg);
+}
+
+.third{
+  background-image: url(images/third.png);
+}
+
+.fourth{
+  background-image: url(images/fourth.jpg);
+}
+
+.fifth{
+  background-image: url(images/fifth.jpg);
+}
 .fix span {
   display: block;
   width: 80%;
@@ -601,6 +620,19 @@ nav select {
   margin-bottom: 10px;
 }
 
+.list {
+  ul {
+    list-style-type: none;
+  }
+}
+
 .list2 li {
   margin-bottom: 10px;
 }
+
+.list2 {
+  ul {
+    list-style-type: none;
+  }
+}
+
