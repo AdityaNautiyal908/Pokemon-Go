@@ -636,3 +636,220 @@ nav select {
   }
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 30px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 1024px) {
+  nav a {
+    margin-left: 20px;
+  }
+  .element {
+    width: 90%;
+  }
+  .let {
+    width: 400px;
+  }
+  .posts .fix {
+    width: 450px;
+  }
+  .posts1 .chota {
+    width: 280px;
+  }
+  .blue1 {
+    width: 60%;
+  }
+  .layout {
+    left: 10%;
+  }
+  .clif {
+    width: 100%;
+  }
+  .purple {
+    width: 100%;
+  }
+  .mountain {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+  nav .ele {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  nav a {
+    margin: 10px 0;
+  }
+  nav .btn {
+    margin-top: 20px;
+  }
+  .blue {
+    height: auto;
+  }
+  .video {
+    height: auto;
+  }
+  .video video {
+    height: auto;
+  }
+  .sky {
+    height: auto;
+    padding: 20px;
+  }
+  .element {
+    flex-direction: column;
+    height: auto;
+  }
+  .element img {
+    margin-bottom: 20px;
+  }
+  .let {
+    width: 100%;
+    text-align: center;
+  }
+  .element #bro {
+    display: none;
+  }
+  .wall {
+    height: auto;
+    padding: 20px;
+  }
+  .posts {
+    flex-direction: column;
+  }
+  .posts .fix {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .posts1 {
+    flex-direction: column;
+  }
+  .posts1 .chota {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main {
+    height: auto;
+  }
+  .ph {
+    position: static;
+    width: 100%;
+    height: 300px;
+  }
+  .blue1 {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .layout {
+    position: static;
+    width: 100%;
+    padding: 20px;
+  }
+  .banner {
+    height: auto;
+    padding: 20px;
+  }
+  .discs {
+    width: 80%;
+  }
+  .grid {
+    display: block;
+  }
+  .clif {
+    flex-direction: column;
+    height: auto;
+  }
+  .purple {
+    padding: 20px;
+  }
+  .mountain {
+    width: 100%;
+    height: 300px;
+  }
+  .module {
+    height: auto;
+    padding: 20px;
+  }
+  .g1 {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .apple {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Niantic {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .let .met {
+    font-size: 24px;
+  }
+  .let p {
+    font-size: 14px;
+  }
+  .news {
+    font-size: 28px;
+  }
+  .fix span:nth-child(2) {
+    font-size: 16px;
+  }
+  .fix span:nth-child(3) {
+    font-size: 16px;
+  }
+  .chota span:nth-child(2) {
+    font-size: 16px;
+  }
+  .chota span:nth-child(3) {
+    font-size: 16px;
+  }
+  .catch {
+    font-size: 24px;
+  }
+  .find {
+    font-size: 24px;
+  }
+  .banner_content_title {
+    font-size: 28px;
+  }
+  .gang {
+    font-size: 24px;
+  }
+  .day {
+    font-size: 28px;
+  }
+}
