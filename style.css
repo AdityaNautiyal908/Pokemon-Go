@@ -406,6 +406,27 @@ footer a:hover {
         display: block;
     }
 
+    .family {
+        padding: 10px;
+    }
+
+    .icon3 img {
+        width: 50px;
+    }
+
+    .catch {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .po {
+        font-size: 14px;
+    }
+
+    .find {
+        font-size: 18px;
+    }
+
     .ph,
     .blue1 {
         min-height: 250px;
