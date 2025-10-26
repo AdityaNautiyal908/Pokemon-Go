@@ -431,4 +431,26 @@ footer a:hover {
     .blue1 {
         min-height: 250px;
     }
+
+    .clif {
+        padding: 10px;
+    }
+
+    .circle img {
+        width: 50px;
+    }
+
+    .gang {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .has {
+        font-size: 14px;
+    }
+
+    .gola i {
+        font-size: 18px;
+        margin: 0 5px;
+    }
 }
