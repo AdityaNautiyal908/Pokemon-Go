@@ -46,10 +46,13 @@ nav {
     text-decoration: none;
     margin-left: 20px;
     transition: color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-.nav-links a:hover {
-    color: #07abea;
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: #07abea;
 }
 
 .btn select {
@@ -122,10 +125,32 @@ nav {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .button button:hover {
     background-color: #eee;
+}
+
+.button button.clicked::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    transform: translate(-50%, -50%) scale(1);
+    animation: ripple 0.3s linear;
+}
+
+@keyframes ripple {
+    to {
+        transform: translate(-50%, -50%) scale(10);
+        opacity: 0;
+    }
 }
 
 /* Latest News */
@@ -371,6 +396,29 @@ footer a:hover {
 
 .gola i:hover {
     color: #07abea;
+}
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #07abea;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.back-to-top.active {
+    display: block;
+}
+
+/* Lazy loading */
+img.lazy {
+    filter: blur(5px);
+    transition: filter 0.5s;
 }
 
 /* Responsive */

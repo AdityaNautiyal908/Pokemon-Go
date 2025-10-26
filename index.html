@@ -13,14 +13,14 @@
         <div class="container">
             <nav>
                 <div class="pic">
-                    <a href="#"><img src="images/icon.png" alt="Pokemon Go Logo"></a>
+                    <a href="#"><img data-src="images/icon.png" alt="Pokemon Go Logo" class="lazy"></a>
                 </div>
                 <div class="ele nav-links">
-                    <a href="#">SEASONS</a>
-                    <a href="#">LEADERBOARD</a>
-                    <a href="#">EVENTS</a>
-                    <a href="#">NEWS</a>
-                    <a href="#">STORE</a>
+                    <a href="#seasons">SEASONS</a>
+                    <a href="#leaderboard">LEADERBOARD</a>
+                    <a href="#events">EVENTS</a>
+                    <a href="#news">NEWS</a>
+                    <a href="#store">STORE</a>
                 </div>
                 <div class="btn">
                     <select id="language-selector">
@@ -35,7 +35,7 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="seasons">
             <div class="video">
                 <video src="images/NIN_PGO_S13_Trailer_16x9_en.mp4" autoplay muted loop></video>
             </div>
@@ -44,7 +44,7 @@
         <section class="meet-mateo">
             <div class="container">
                 <div class="element">
-                    <img src="images/po.webp" alt="Mateo">
+                    <img data-src="images/po.webp" alt="Mateo" class="lazy">
                     <div class="let">
                         <div class="met">Let’s Meet Mateo</div>
                         <p>Mateo, a researcher who loves to travel, is on his way to Pokémon GO! He enjoys collecting and exchanging Postcards and Gifts from all over the world. He’s excited to meet you at the end of your journey on a Route.</p>
@@ -52,12 +52,12 @@
                             <button>Learn more</button>
                         </div>
                     </div>
-                    <img id="bro" src="images/bro.webp" alt="Pokemon Character">
+                    <img id="bro" data-src="images/bro.webp" alt="Pokemon Character" class="lazy">
                 </div>
             </div>
         </section>
 
-        <section class="latest-news">
+        <section class="latest-news" id="news">
             <div class="container">
                 <div class="news">Latest News</div>
                 <div class="posts">
@@ -96,7 +96,7 @@
                 <div class="blue1">
                     <div class="family layout">
                         <div class="icon3">
-                            <img src="images/Pokeball.png" alt="Pokeball">
+                            <img data-src="images/Pokeball.png" alt="Pokeball" class="lazy">
                         </div>
                         <div class="catch new">Catch Pokémon</div>
                         <div class="po new">Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.</div>
@@ -120,47 +120,47 @@
                 <div class="clif">
                     <div class="purple">
                         <div class="circle">
-                            <img src="images/Rocket.png" alt="Team Go Rocket Logo">
+                            <img data-src="images/Rocket.png" alt="Team Go Rocket Logo" class="lazy">
                         </div>
                         <div class="gang">Team GO Rocket</div>
                         <div class="has">Team GO Rocket has invaded the world of Pokémon GO! Whether you’re working on Special Research or just trying to rescue Shadow Pokémon, you can challenge Team GO Rocket and foil their plans.</div>
                     </div>
                     <div class="mountain">
-                        <img src="images/men.png" alt="Team Go Rocket Members">
+                        <img data-src="images/men.png" alt="Team Go Rocket Members" class="lazy">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="get-up-and-go">
+        <section class="get-up-and-go" id="store">
             <div class="container">
                 <div class="module">
                     <div class="g1">
                         <div class="template">
-                            <img src="images/go.png" alt="Pokemon Go Logo">
+                            <img data-src="images/go.png" alt="Pokemon Go Logo" class="lazy">
                         </div>
                         <div class="day">
                             Get Up and GO!<br>Download Today
                         </div>
                     </div>
                     <div class="apple">
-                        <a href="#"><img src="images/apple.svg" alt="Download on the App Store"></a>
-                        <a href="#"><img src="images/play.png" alt="Get it on Google Play"></a>
-                        <a href="#"><img src="images/GalaxyStore_en.png" alt="Available on Galaxy Store"></a>
+                        <a href="#"><img data-src="images/apple.svg" alt="Download on the App Store" class="lazy"></a>
+                        <a href="#"><img data-src="images/play.png" alt="Get it on Google Play" class="lazy"></a>
+                        <a href="#"><img data-src="images/GalaxyStore_en.png" alt="Available on Galaxy Store" class="lazy"></a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer id="leaderboard">
         <div class="container">
             <div class="Niantic">
                 <div class="list">
                     <ul>
                         <li><a href="#">LEADERBOARD</a></li>
-                        <li><a href="#">EVENTS</a></li>
-                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#events">EVENTS</a></li>
+                        <li><a href="#news">NEWS</a></li>
                     </ul>
                 </div>
                 <div class="list2">
