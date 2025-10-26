@@ -74,18 +74,20 @@ nav {
 .hero {
     position: relative;
     height: 40vh;
+    margin-bottom: 0;
 }
 
 .video video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 /* Meet Mateo */
 .meet-mateo {
     background-color: #07abea;
-    padding: 40px 0;
+    padding: 0 0 40px 0;
     color: #fff;
 }
 
