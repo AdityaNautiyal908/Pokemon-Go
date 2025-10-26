@@ -6,195 +6,179 @@
     <title>Pokemon Go Website Clone</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="blue">
-        <nav>
-            <div class="pic">
-            <img src="images/icon.png" alt="">
-            </div>
-            <div class="ele nav-links">
-            <a href="#">SEASONS</a>
-            <a href="#">LEADERBOARD</a>
-            <a href="#">EVENTS</a>
-            <a href="#">NEWS</a>
-            <a href="#">STORE</a>
-            </div>
-            
-            <div class="btn">
-                <select id="">
-                    <option>ENGLISH</option>
-                </select>
-            </div>
-            <div class="hamburger">
-                <i class='bx bx-menu'></i>
-            </div>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="pic">
+                    <img src="images/icon.png" alt="Pokemon Go Logo">
+                </div>
+                <div class="ele nav-links">
+                    <a href="#">SEASONS</a>
+                    <a href="#">LEADERBOARD</a>
+                    <a href="#">EVENTS</a>
+                    <a href="#">NEWS</a>
+                    <a href="#">STORE</a>
+                </div>
+                <div class="btn">
+                    <select id="language-selector">
+                        <option>ENGLISH</option>
+                    </select>
+                </div>
+                <div class="hamburger">
+                    <i class='bx bx-menu'></i>
+                </div>
             </nav>
-        <div class="video">
-            <video src="images/NIN_PGO_S13_Trailer_16x9_en.mp4" autoplay muted loop ></video>
         </div>
-    </div>
+    </header>
 
-    <div class="sky">
-        <div class="element">
-            <img src="images/po.webp" alt="">
-
-            <div class="let">
-                <div class="met">
-                    Let’s Meet Mateo
-                </div>
-                <p>Mateo, a researcher who loves to travel, is on his way to Pokémon GO! He enjoys collecting and exchanging Postcards and Gifts from all over the world. He’s excited to meet you at the end of your journey on a Route.</p>
-                <div class="button">
-                    <button>Learn more</button>
-                </div>
+    <main>
+        <section class="hero">
+            <div class="video">
+                <video src="images/NIN_PGO_S13_Trailer_16x9_en.mp4" autoplay muted loop></video>
             </div>
-            <img id="bro" src="images/bro.webp" alt="">
-        </div>
-        </div>
-        
-        <div class="wall">
-            <div class="news">
-                Latest News
-            </div>
+        </section>
 
-            <div class="posts">
-                <div class="first fix" title="Update to Android Offer Code Redemption">
-                    <span>FEB 10,2024</span>
-                    <span>Update to Android Offer Code Redemption</span>
-                </div>
-                <div class="second fix" title="Get Ready for Pokemon Go Tour: Sinnoh with Amazon Prime Gaming!">
-                    <span>FEB 9,2024</span>
-                    <span>Ready for Pokemon GO Tour:Sinnoh with</span>
-                    <span>Amazon Prime Gaming!</span>
-                </div>
-                
-            </div>
-            <div class="posts1">
-                <div class="third chota" title="Get Pokemon Go Tips from itsAXN, TrainerTips, Scoh_Toph, and SpeediestChief during a Go Battle Day Stream">
-                    <span>FEB 8, 2024</span>
-                    <span>Get Pokemon GO Tips from</span>
-                    <span>ItsAXN,TrainerTips,Soph_Tips...</span>
-
-                </div>
-                <div class="fourth chota" title="Save the dates for text Season's Community Days">
-                    <span>FEB 5, 2024</span>
-                    <span>Save the dates for next Season's</span>
-                    <span>Community Days!</span>
-                </div>
-                <div class="fifth chota" title="Incarnate Forme Enamorus debuts in Elite Raids!" >
-                    <span>FEB 2, 2024</span>
-                    <span>Incarnate Forme Enamorus</span>
-                    <span>debuts in Elite Raids!</span>
-                </div>
-            </div>
-
-            <div class="news_button">
-                <button>More News</button>
-            </div>
-        </div>
-
-        <div class="main">
-            <div class="ph"></div>
-
-            <div class="blue1">
-                <div class="family layout">
-                    <div class="icon3">
-                        <img src="images/Pokeball.png" alt="">
+        <section class="meet-mateo">
+            <div class="container">
+                <div class="element">
+                    <img src="images/po.webp" alt="Mateo">
+                    <div class="let">
+                        <div class="met">Let’s Meet Mateo</div>
+                        <p>Mateo, a researcher who loves to travel, is on his way to Pokémon GO! He enjoys collecting and exchanging Postcards and Gifts from all over the world. He’s excited to meet you at the end of your journey on a Route.</p>
+                        <div class="button">
+                            <button>Learn more</button>
+                        </div>
                     </div>
-                    <div class="catch new">
-                        Catch Pokémon
+                    <img id="bro" src="images/bro.webp" alt="Pokemon Character">
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-news">
+            <div class="container">
+                <div class="news">Latest News</div>
+                <div class="posts">
+                    <div class="first fix" title="Update to Android Offer Code Redemption">
+                        <span>FEB 10, 2024</span>
+                        <span>Update to Android Offer Code Redemption</span>
                     </div>
-                    <div class="po new">
-                    Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+                    <div class="second fix" title="Get Ready for Pokemon Go Tour: Sinnoh with Amazon Prime Gaming!">
+                        <span>FEB 9, 2024</span>
+                        <span>Ready for Pokemon GO Tour: Sinnoh with Amazon Prime Gaming!</span>
                     </div>
-    
-                    <div class="find new">
-                        Find your buddy!
+                </div>
+                <div class="posts1">
+                    <div class="third chota" title="Get Pokemon Go Tips from itsAXN, TrainerTips, Scoh_Toph, and SpeediestChief during a Go Battle Day Stream">
+                        <span>FEB 8, 2024</span>
+                        <span>Get Pokemon GO Tips from ItsAXN, TrainerTips, Soph_Tips...</span>
+                    </div>
+                    <div class="fourth chota" title="Save the dates for next Season's Community Days">
+                        <span>FEB 5, 2024</span>
+                        <span>Save the dates for next Season's Community Days!</span>
+                    </div>
+                    <div class="fifth chota" title="Incarnate Forme Enamorus debuts in Elite Raids!">
+                        <span>FEB 2, 2024</span>
+                        <span>Incarnate Forme Enamorus debuts in Elite Raids!</span>
+                    </div>
+                </div>
+                <div class="news_button">
+                    <button>More News</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="catch-pokemon">
+            <div class="main">
+                <div class="ph"></div>
+                <div class="blue1">
+                    <div class="family layout">
+                        <div class="icon3">
+                            <img src="images/Pokeball.png" alt="Pokeball">
+                        </div>
+                        <div class="catch new">Catch Pokémon</div>
+                        <div class="po new">Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.</div>
+                        <div class="find new">Find your buddy!</div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="banner">
-            <div class="content_banner">
-                <div class="banner_content_title">
-                    Items for Your Adventure
-                </div>
-
-                <div class="discs">
-                    Spin Photo Discs at PokéStops and Gyms to receive items that will help you on your Pokémon GO journey, including Poké Balls, Berries, Evolution items, and more.
+        <section class="items-for-adventure">
+            <div class="banner">
+                <div class="content_banner">
+                    <div class="banner_content_title">Items for Your Adventure</div>
+                    <div class="discs">Spin Photo Discs at PokéStops and Gyms to receive items that will help you on your Pokémon GO journey, including Poké Balls, Berries, Evolution items, and more.</div>
                 </div>
             </div>
-        </div>
-        <div class="grid">
-            <div class="clif">
-                <div class="purple">
-                    <div class="circle">
-                        <img src="images/Rocket.png" alt="">
+        </section>
+
+        <section class="team-go-rocket">
+            <div class="container">
+                <div class="clif">
+                    <div class="purple">
+                        <div class="circle">
+                            <img src="images/Rocket.png" alt="Team Go Rocket Logo">
+                        </div>
+                        <div class="gang">Team GO Rocket</div>
+                        <div class="has">Team GO Rocket has invaded the world of Pokémon GO! Whether you’re working on Special Research or just trying to rescue Shadow Pokémon, you can challenge Team GO Rocket and foil their plans.</div>
                     </div>
-        
-                    <div class="gang">
-                        Team GO Rocket
-                    </div>
-        
-                    <div class="has">
-                        Team GO Rocket has invaded the world of Pokémon GO! Whether you’re working on Special Research or just trying to rescue Shadow Pokémon, you can challenge Team GO Rocket and foil their plans.
+                    <div class="mountain">
+                        <img src="images/men.png" alt="Team Go Rocket Members">
                     </div>
                 </div>
-                <div class="mountain">
-                    <img src="images/men.png" alt="">
+            </div>
+        </section>
+
+        <section class="get-up-and-go">
+            <div class="container">
+                <div class="module">
+                    <div class="g1">
+                        <div class="template">
+                            <img src="images/go.png" alt="Pokemon Go Logo">
+                        </div>
+                        <div class="day">
+                            Get Up and GO!<br>Download Today
+                        </div>
+                    </div>
+                    <div class="apple">
+                        <a href="#"><img src="images/apple.svg" alt="Download on the App Store"></a>
+                        <a href="#"><img src="images/play.png" alt="Get it on Google Play"></a>
+                        <a href="#"><img src="images/GalaxyStore_en.png" alt="Available on Galaxy Store"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="Niantic">
+                <div class="list">
+                    <ul>
+                        <li><a href="#">LEADERBOARD</a></li>
+                        <li><a href="#">EVENTS</a></li>
+                        <li><a href="#">NEWS</a></li>
+                    </ul>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <li><a href="#">COMMUNITY DAY MAP</a></li>
+                        <li><a href="#">SUPPORT</a></li>
+                        <li><a href="#">OFFER REDEMPTION</a></li>
+                    </ul>
+                </div>
+                <div class="gola">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
                 </div>
             </div>
         </div>
-       
-        <div class="module">
-            <div class="g1">
-                <div class="template">
-                    <img src="images/go.png" alt="">
-                </div>
-                <div class="day">
-                    Get Up and GO!
-                    Download Today
-                </div>
-            </div>
-            
-            <div class="apple">
-                <img src="images/apple.svg" alt="">
-                <img src="images/play.png" alt="">
-                <img src="images/GalaxyStore_en.png" alt="">
-            </div>
-        </div>
+    </footer>
 
-        <div class="Niantic">
-            <div class="list">
-                <ul>
-                <li>LEADERBOARD</li>
-                <li>EVENTS</li>
-                <li>NEWS</li>
-                </ul>
-                
-            </div>
-
-            <div class="list2">
-                <ul>
-                <li>COMMUNITY DAY MAP</li>
-                <li>SUPPORT</li>
-                <li>OFFER REDEMPTION</li>
-                </ul>
-            </div>
-
-            <div class="gola">
-                <div class="uo instagram">
-                    <i class='bx bxl-instagram' ></i>
-                </div>
-                <div class="uo facebook">
-                    <i class='bx bxl-facebook-circle' ></i>
-                </div>
-                <div class="uo youtube">
-                    <i class='bx bxl-youtube' ></i>
-                </div>
-            </div>
-        </div>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
 </body>
