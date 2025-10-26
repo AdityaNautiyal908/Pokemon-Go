@@ -13,3 +13,14 @@ ScrollReveal().reveal('.meet-mateo, .latest-news, .catch-pokemon, .items-for-adv
     easing: 'ease-in-out',
     reset: true
 });
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

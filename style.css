@@ -6,6 +6,10 @@
 }
 
 /* Base Styles */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f7f7f7;
@@ -21,7 +25,7 @@ body {
 /* Header */
 header {
     background-color: #0f224a;
-    padding: 20px;
+    padding: 15px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -34,7 +38,7 @@ nav {
 }
 
 .pic img {
-    width: 120px;
+    width: 100px;
 }
 
 .nav-links a {
@@ -69,7 +73,7 @@ nav {
 /* Hero */
 .hero {
     position: relative;
-    height: 60vh;
+    height: 40vh;
 }
 
 .video video {
@@ -81,7 +85,7 @@ nav {
 /* Meet Mateo */
 .meet-mateo {
     background-color: #07abea;
-    padding: 50px 0;
+    padding: 40px 0;
     color: #fff;
 }
 
@@ -93,19 +97,19 @@ nav {
 }
 
 .element img {
-    width: 200px;
+    width: 180px;
     margin: 20px;
 }
 
 .let {
-    max-width: 600px;
+    max-width: 500px;
     margin: 20px;
 }
 
 .met {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .button button {
@@ -124,34 +128,34 @@ nav {
 
 /* Latest News */
 .latest-news {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .news {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .posts,
 .posts1 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
 }
 
 .fix,
 .chota {
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 250px;
+    min-height: 220px;
     transition: transform 0.3s ease;
 }
 
@@ -182,7 +186,7 @@ nav {
 
 .news_button {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .news_button button {
@@ -202,7 +206,7 @@ nav {
 /* Catch Pokemon */
 .catch-pokemon {
     background-color: #0f224a;
-    padding: 50px 0;
+    padding: 40px 0;
     color: #fff;
 }
 
@@ -216,14 +220,14 @@ nav {
     flex: 1;
     background-image: url(images/Crow.webp);
     background-size: cover;
-    min-height: 400px;
+    min-height: 350px;
 }
 
 .blue1 {
     flex: 1;
     background-image: url(images/blue.webp);
     background-size: cover;
-    min-height: 400px;
+    min-height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,17 +235,17 @@ nav {
 
 .family {
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .icon3 img {
-    width: 80px;
+    width: 70px;
 }
 
 .catch {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 /* Items for Adventure */
@@ -249,21 +253,21 @@ nav {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/background.webp);
     background-size: cover;
     background-attachment: fixed;
-    padding: 100px 0;
+    padding: 80px 0;
     text-align: center;
     color: #fff;
 }
 
 .banner_content_title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 /* Team Go Rocket */
 .team-go-rocket {
     background-color: #603f96;
-    padding: 50px 0;
+    padding: 40px 0;
     color: #fff;
 }
 
@@ -275,17 +279,17 @@ nav {
 
 .purple {
     flex: 1;
-    padding: 20px;
+    padding: 15px;
 }
 
 .circle img {
-    width: 80px;
+    width: 70px;
 }
 
 .gang {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .mountain {
@@ -301,23 +305,23 @@ nav {
 .get-up-and-go {
     background-image: url(images/green.jpg);
     background-size: cover;
-    padding: 50px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
 .template img {
-    width: 200px;
+    width: 180px;
 }
 
 .day {
     color: #fff;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .apple img {
-    width: 150px;
+    width: 130px;
     margin: 0 10px;
     transition: transform 0.3s ease;
 }
@@ -330,8 +334,18 @@ nav {
 footer {
     background-color: #0f224a;
     color: #fff;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #07abea;
 }
 
 .Niantic {
@@ -344,11 +358,11 @@ footer {
 .list ul,
 .list2 ul {
     list-style: none;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 .gola i {
-    font-size: 24px;
+    font-size: 22px;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
@@ -363,11 +377,11 @@ footer {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 70px;
+        top: 60px;
         left: 0;
         width: 100%;
         background-color: #0f224a;
-        padding: 20px;
+        padding: 15px;
     }
 
     .nav-links.active {
@@ -380,6 +394,6 @@ footer {
 
     .ph,
     .blue1 {
-        min-height: 300px;
+        min-height: 250px;
     }
 }
